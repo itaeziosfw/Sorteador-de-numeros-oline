@@ -1,0 +1,71 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ background-color: #2253bc;
+
+}
+
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+min-height: 100vh;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.input-min{
+width: 342px;
+height: 54px;
+top: 70px;
+left: 647px;
+padding: 8px 30px 5px 16px;
+border-radius: 14px;
+border: 1px;
+background: linear-gradient(0deg, rgb(247, 250, 251), rgba(255, 255, 255, 0.25)),
+linear-gradient(0deg, rgb(250, 248, 248), rgb(248, 252, 251));
+margin-right: 70px; 
+text-decoration-color: black;
+font-size: 50px;
+}
+
+.input-max{
+    width: 342px;
+    height: 54px;
+    top: 70px;
+    left: 647px;
+    padding: 8px 10px 5px 10px;
+    border-radius: 14px;
+    border: 1px;
+    background: linear-gradient(0deg, rgb(247, 248, 248), rgba(255, 255, 255, 0.25)),
+    linear-gradient(0deg, rgb(254, 255, 255), rgb(247, 255, 252));
+    margin-right: 2px;
+    font-size: 50px;
+     
+}
+button{
+
+    text-align: center;
+    background: #c9ec1c;
+    box-shadow: 0px 18px 40px rgb(174,195 green,40 blue);
+    border-radius: 10px;
+    width: 342px;
+    height: 60px;
+    font-size: 36px;
+    margin-left: -20px;
+}
+.botao:hover{
+    opacity: 0.9;
+}
+
+
+.botao:active{
+    opacity: 0.8;
+}
